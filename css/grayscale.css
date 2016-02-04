@@ -10,7 +10,7 @@ body {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 50;
     color: #fff;
-    background-color: #000;
+    background-color: #181818;
 }
 
 html {
@@ -46,7 +46,7 @@ p {
 }
 
 a {
-    color: #fff;
+    color: #777;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -55,10 +55,16 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #777;
+    color: #fff;
 }
 
 .light {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.page-scroll {
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -71,6 +77,7 @@ a:focus {
 }
 
 .navbar-custom .navbar-brand {
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -83,6 +90,7 @@ a:focus {
     font-size: 16px;
     color: #fff;
 }
+
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
@@ -148,7 +156,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/home-bg.jpg) no-repeat bottom center scroll;
     background-color: #181818;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -168,6 +176,7 @@ a:focus {
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
+
 
 @media(min-width:768px) {
     .intro {
@@ -262,17 +271,19 @@ a:focus {
     padding-top: 50px 0;
 }
 
-.download-section {
+.kontakt-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
     
-    background-color: #181818;
+    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+
 
 #map {
     width: 100%;
@@ -282,24 +293,33 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 0px;
     }
 
-    .download-section {
-        padding: 100px 0;
+    .kontakt-section {
+        padding: 200px 0;
     }
+
+
 
     #map {
         height: 500px;
         margin-top: 0;
     }
+
 }
 
 
 
+#impressum .row {
+   
+    padding-top: 200px;
+
+}
+
 .btn {
     border-radius: 0;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
@@ -308,17 +328,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #777;
+    color: #777;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #fff;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #fff;
 }
 
 ul.banner-social-buttons {
@@ -344,7 +364,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 50px 0 30px 0;
 }
 
 footer p {
