@@ -10,9 +10,9 @@ body {
     font-family: Varela,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 50;
     letter-spacing: 1px;
-    color: #fff;
-    background-color: #202020;
-    background: url(../img/impressum-bg.jpg) bottom center scroll;
+    color: #000;
+    background-color: #4B4B4B;
+ /*!   background: url(../img/impressum-bg.jpg) bottom center scroll;*/
 }
 
 html {
@@ -20,7 +20,13 @@ html {
     height: 100%;
 }
 
-h1,
+
+h1 {
+    margin: 0 0 10px;
+
+}
+
+
 h2,
 h3,
 h4,
@@ -174,12 +180,21 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 100px;
+    color: #000;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    margin: 0px 0px 0px;
+    color: #fff;
 }
+
+.intro .intro-body .intro-text-nex {
+    font-size: 25px;
+    color: #999;
+}
+ 
 
 
 @media(min-width:768px) {
@@ -189,13 +204,15 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 120px;
-        letter-spacing: 15px;
+        font-size: 113px;
+        letter-spacing: 5px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 25px;
     }
+
+
 }
 
 .btn-circle {
@@ -203,10 +220,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 1px solid #999;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
+    color: #999;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -282,7 +299,7 @@ a:focus {
     height: 100%;
     
     color: #fff;
-    background: url(../img/kontakt-bg.jpg) no-repeat center center scroll;
+ /*!   background: url(../img/kontakt-bg.jpg) no-repeat center center scroll;*/
     background-color: #181818;
     -webkit-background-size: cover;
     -moz-background-size: cover;
